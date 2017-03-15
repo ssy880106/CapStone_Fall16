@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>K12toCollege - Donations</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet"  href="styles.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="adImages.json" ></script>
+		
+	
+	</head>
+	
+	
+	<body >
+	
+	
+	
+		<script>
+		 var ad = JSON.parse(ad);
+		 var BanAd = JSON.parse(Banner);
+		var rand1 = Math.floor((Math.random()* ad.length));
+		var rand2 = Math.floor((Math.random()*BanAd.length));
+		
+		function AdSwap(){
+		document.getElementById("adSpace").src = ad[rand1].file;
+		}
+		
+		function BanSwap(){
+		document.getElementById("BanSpace").src = BanAd[rand2].file;
+		}
+		
+		</script>
+			
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand">K12toCollege</a>
+
+            <button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse" >
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="GettingStarted.html">Getting Started</a></li>
+                <li><a href="discounts.html">Area Discounts and Coupons</a></li>
+                <li><a href="Ultimate.html">Ultimate</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle = "dropdown">Sponsorship</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="SponsorshipA.html">Social Media Events</a></li>
+                            <li><a href="SponsorshipB.html">Tax Deductible Donations</a></li>
+                        </ul>
+                </li>
+                <li><a href="partners.html">Our Partners</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="View/resume/resume_list.php">Resume</a></li>
+                <li><a href="View/register/studentRegister.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="View/login/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>	
+        </div>
+    </div>							
+</div>
+				
+			
+            <div class="wrapper">
+			
+				
+			
+                <main class="mainC" >
+								<p Class="TitleBig">K12toCollege business Donations</p><br>
+								
+								<p Class="infoBox bold">
+									<span>Social media marketing that helps todays students</span><br>
+									
+								
+								</p>
+								
+								<img src="images/Donation.jpg" class="CenteredExSm" alt="Window of a Resturant" ><br>
+								
+								Thank you, <span class="Highlight">Your 2016 Tax Deductible Donation</span> will go to work immediately to fund Brand New College Saving Plan Starter Deposits for Taney, Christion, & Greene County K-12 Students<br><br>	
+								
+								<div>
+								
+									<p class="Title">2017 Silver Sponsor Donation $2,400</p><br>
+									<ul>
+									  <li Class="standOut">50&#37; of your Marketing Dollars goes to College Saving Plan Starter Deposits split by the 5 students that secure your sponsorship &#43; 2 others</li>
+									  <li Class="standOut"> Of the Remaining funds 40&#37; will go to work immediately for our Youth Sports Programs and 10&#37; to administration costs</li>
+									</ul>
+								
+								
+								</div>
+								<br>
+                                <div>
+								
+									<p class="Title">2017 Gold Sponsor Donation $4,000</p><br>
+									<ul>
+									 
+									  <li Class="standOut">50&#37; of your Marketing Dollars goes to College Saving Plan Starter Deposits split by the 5 students that secure your sponsorship &#43; 2 others</li>
+									  <li Class="standOut"> Of the Remaining funds 40&#37; will go to work immediately for our Youth Sports Programs and 10&#37; to administration costs</li>
+									
+									</ul>
+								
+								
+								</div>
+								<br>
+                                <div>
+								
+									<p class="Title">2017 Platinum Sponsor Donation $5,600</p><br>
+									<ul>
+									  <li Class="standOut">50&#37; of your Marketing Dollars goes to College Saving Plan Starter Deposits split by the 5 students that secure your sponsorship &#43; 2 others</li>
+									  <li Class="standOut"> Of the Remaining funds 40&#37; will go to work immediately for our Youth Sports Programs and 10&#37; to administration costs</li>
+									</ul>
+								
+								
+								</div>
+								
+								<br>
+								<p class="infoBox bigTxt"> if you are interested in becoming a sponcer you can click <a href="mailto:curtis.k12tc@gmail.com?Subject=Sponsorship%20request" target="_top">HERE</a> to send us an email or call us at <a href="tel: 1-417-527-0808"> &#40;417&#41; 527-0808</a>
+								
+                </main>
+				
+				
+								
+				
+            </div>
+	</body>
+	
+	
+	
+</html>

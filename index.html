@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>K12toCollege</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet"  href="styles.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="adImages.json" ></script>
+		
+	
+	</head>
+	
+	
+	<body >
+	
+
+	
+	<script>
+	 var ad = JSON.parse(ad);
+	 var BanAd = JSON.parse(Banner);
+	var rand1 = Math.floor((Math.random()* ad.length));
+	var rand2 = Math.floor((Math.random()*BanAd.length));
+	
+	function AdSwap(){
+	document.getElementById("adSpace").src = ad[rand1].file;
+	}
+	
+	function BanSwap(){
+	document.getElementById("BanSpace").src = BanAd[rand2].file;
+	}
+	</script>
+	
+	
+			<div class="navbar navbar-inverse navbar-static-top">
+					
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a href="index.html" class="navbar-brand">K12toCollege</a>
+							
+							<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse" >
+								
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								
+							</button>
+						</div>
+						
+						<div class="collapse navbar-collapse navHeaderCollapse">
+							
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="GettingStarted.html">Getting Started</a></li>
+								<li><a href="discounts.html">Area Discounts and Coupons</a></li>
+								<li><a href="Ultimate.html">Ultimate</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle = "dropdown">Sponserships</a>
+										<ul class="dropdown-menu">
+											<li><a href="SponsorshipA.html">Social Media Events</a></li>
+											<li><a href="SponsorshipB.html">Tax Deductible Donations</a></li>
+										</ul>
+								</li>
+								<li><a href="partners.html">Our Partners</a></li>
+								<li><a href="contactUs.html">Contact Us</a></li>
+                                                                <li><a href="View/resume/resume_list.php">Resume</a></li>
+								<li><a href="View/register/studentRegister.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                                                                <li><a href="View/login/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							</ul>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					
+</div>
+       
+	
+    <div class="wrapper">	
+    <main >
+
+		<img src="images/studentLost.jpg" alt="a stutent lost in a waistland" class="bigImg">
+		
+		<div class="bigBox textCentered">
+		<br><br>
+		<p class="noPad"><span class="TitleNB">The Problem</span><br>
+		Currently 7,000 students are dropping out of school <span Class="standOut">every day</span> &#40;nationally&#41;. <br> 1.2 million students drop out annually.  &#40;Source&#58; <a href="https://www.whitehouse.gov/briefing-room" target="_blank"> http&#58;&#47;&#47;www.whitehouse.gov&#47;the-press-office</a>&#41;<br><br>
+		<span class="TitleNB">The Solution</span><br>
+		CHANGE STUDENT TRAJECTORY!  K12tocollege&#8482; youth programs develop character, real life skills and a sense of responsibility and community.  These goals are achieved through the implementation of time tested, proven methods &#40;mentoring, employment internships and continued education services&#41;, <span class="bold">creatively combined</span> with our fun programs that incorporate popular social media services like Facebook, Twitter & Instagram.</p>
+		</div>
+		
+		
+		
+		<div class="divUp  textDivSm">
+		<p class="Title">Our Strategy</p><br>
+		<p class="BLeft">FREE help to succeed in life!<br><br>
+		We will utilize popular social media trends to meet our goals.  In 2017 our programs will begin to generate New Funding for hundreds of “starter deposits” for new SW Missouri student college savings plans.</p> 
+		</div>
+		
+		
+		
+		<div class="divUp textRight textDivSm ">
+		<p class="Title">Board of Governance</p><br>
+		<p class="BRight">K12toCollege&#8482; is a community enhancement organization that is a member of National Christian Foundation.  Our board is currently seeking a few more retired and active educators, community professionals and leaders to sit on our board to improve effectiveness and efficiencies of our programs.</p> 
+		</div>
+		
+		<div class="divUp  textDivBig">
+		<p class="Title">The Economic Engine</p><br>
+		<p class="BLeft">Our mission and business model promotes a givers-gain philosophy that produces increased profits through improved foot traffic &#40;and web traffic&#41; to our sponsor businesses.  Local and national businesses get even more exposure by making a tax deductible donation to K12toCollege&#8482; or choose to be an advisor.  These funds will immediately go to work creating college saving plans, life skills learning through our internships and youth sports programs.  Additionally, long-term positive economic impact for SW Missouri communities are anticipated.<br><br> 
+		K12toCollege&#8482; anticipates test marketing of our community enhancement programs for Taney, Christian and Greene County to begin in 2017.</p> 
+		</div>
+    </main>
+		
+		<img src="images/adPlaceholder.png" alt="ad Placeholder" class="picPos1 smallPic" id="adSpace" onload="AdSwap()">
+		<img src="images/officeSmall.jpg" alt="office scene" class=" picPos2 smallPic imgHide">
+		<img src="images/money.jpg" alt="picture of money" class=" picPos3 smallPic imgHide">
+		<img src="images/BannerPlaceHolder.png" alt="banner ad placeholder" class="CenteredSm" id="BanSpace" onload="BanSwap()">
+		
+    </div>
+</body>	
+</html>
