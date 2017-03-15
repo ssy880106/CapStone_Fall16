@@ -1,0 +1,69 @@
+
+html, body{
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    font-size: 14px;
+    background-color: #ccffcc;
+}
+
+/* For width 800px and larger: */
+@media only screen and (min-width: 800px) {
+    #background { 
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../public_img/register_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.4;
+    filter:alpha(opacity=80);
+    }
+}
+
+#background {
+    
+}
+.right{
+    float: right;
+}
+
+.panel-header{
+    background-color: #ff9900;
+    color: #fff;
+    padding: 6px 15px 6px 18px;
+    height: auto;
+    display: block;
+}
+
+.panel-title{
+    display: block;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.underline{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #D7D7D7  ;
+    width: 100%;
+}
+
+.num{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #D7D7D7  ;
+    width: 60px;
+}
+
+.lower{
+    margin-top: 45px;
+}

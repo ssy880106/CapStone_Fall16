@@ -1,0 +1,34 @@
+#content-admin {
+    margin: 20px 0px 50px 0px;
+    background-color: #535559;
+    border-top: 4px #F08080 solid;
+}
+
+#content-admin header {
+	padding: 10px 20px;
+}
+
+#content-student {
+    margin: 20px 0px 50px 0px;
+    background-color: #535559;
+    border-top: 4px #90EE90 solid;
+
+}
+
+#content-student header {
+	padding: 10px 20px;
+}
+
+.page_title {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.content-inner {
+	padding: 30px;
+}
+
+button:focus {
+    outline: 0 !important;
+}

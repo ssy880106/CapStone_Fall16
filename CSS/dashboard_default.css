@@ -1,0 +1,211 @@
+
+html, body{
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #343842;
+    color: #f4f5f7;
+    height: 100%;
+}
+/*------------------------------
+                                 Side Menu
+                                           -----------------------------------*/
+#side-menu{
+    background-color: #252830;
+    padding: 0px;
+    padding-top: 50px;
+}
+
+#side-menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#side-menu a{
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #9fb1c2;
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+}
+
+#side-menu a:hover{
+    background-color: #343842;
+    color: #fff;
+    display: block;
+}
+
+#side-menu a:active{
+    color: yellow;
+    background-color: #293846;
+}
+
+#side-menu .collapseable{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#side-menu .collapseable a{
+    color: #9fb1c2;
+    font-size: 12px;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+#side-menu .collapseable a:hover{
+    color: #fff;
+}
+
+#side-menu .collapseable {
+    border-left: 4px solid red;
+    background-color: #293846;
+}
+
+#side-menu h1{
+    color: #428bca;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+ 
+#side-menu .link >ul >li{
+    padding-bottom: 10px;
+}
+
+/*------------------------------
+                                   Table
+                                           -----------------------------------*/
+.display-table{
+    display: table;
+    padding: 0px;
+    height: 99%;
+    width: 100%;
+}
+
+.display-table-row{
+    display: table-row;
+    height: 100%;
+}
+
+.display-table-cell{
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
+/*shifts the page to the very top*/
+.valign-top{
+    vertical-align: top;
+}
+
+/*------------------------------
+                                Navigation
+                                           -----------------------------------*/
+#nav-header {
+    background-color: #343842;
+    padding-top: 20px;
+}
+
+#nav-header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #f4f5f7;
+    vertical-align: middle;
+}
+
+/*shifts the navigation to one line instead of being stacked.*/
+#nav-header ul li {
+    float: left;
+    margin-left: 15px;
+    padding: 17px 0px;
+}
+
+/*changes the color of the icons*/
+#nav-header ul .glyphicon{
+    color: #f4f5f7;
+}
+
+#nav-header ul a {
+    text-decoration: none;
+}
+
+#nav-header .logout{
+    color: #f4f5f7;
+}
+
+#nav-header .logout :hover{
+    color: #676a6c;
+}
+
+/*welcome sign fixes*/
+#nav-header #welcome{
+    margin-right: 50px;
+}
+
+.navbar-default{
+    background-color: #343842;
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #252830;
+    background-color: #252830;
+}
+
+.navbar-default .icon-bar{
+    border: 1px white solid;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #9fb1c2;
+}
+
+.navbar-default .navbar-toggle:focus{
+    background-color: #9fb1c2;
+}
+
+#side-menu .img-circle{
+    width: 120px;
+    height: 120px;
+}
+
+
+/*------------------------------
+                                  Footer
+                                           -----------------------------------*/
+#admin-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    background-color: #343842;
+    padding: 10px;
+    font-size: 12px;
+    color: #f4f5f7;
+}
+
+/*------------------------------
+                                  List
+                                           -----------------------------------*/
+#list img{
+    width: 50px;
+    height: 50px;
+}
+
+#list th{
+    vertical-align: middle;
+}
+
+/*------------------------------
+                                  Button
+                                           -----------------------------------*/
+#list .btn {
+    color: red;
+    background-color: transparent;
+}
+
+.btn-md{
+    width: 25%;
+}
